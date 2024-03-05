@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Real-Estate.css">
+    <title>Real Estate Website</title>
+</head>
+<body>
+    <header id="hero">
+    <div class="hero-content">
+      <h1>Your Real Estate</h1>
+      <p>Welcome to property at ease!</p>
+      <p class="contact-info">Contact us: (123) 456-7890</p>
+    </div>
+  </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <img src="hamburger-icon.png" alt="Hamburger Icon" id="hamburgerIcon">
+    
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#listings">Listings</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+        
+        <section class="about-us" id="about-us">
+        <h2>About Us</h2>
+        <p>Welcome to our real estate platform. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel commodo libero, nec elementum eros. Curabitur non ultrices ligula.</p>
+        <p>Our team is dedicated to helping you find your dream home. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel commodo libero, nec elementum eros. Curabitur non ultrices ligula.</p>
+    </section>
+<!-- Add this code within the body of your HTML file, inside the propertyElement div -->
+
+
+
+    <section id="listings">
+        <h2>Hot Deals</h2>
+        <!-- Your property listings will go here -->
+    </section>
+     <section id="categories">
+        <h2>Categories</h2>
+<div class="categories-property">
+    <a href="Apartment1.html">
+        <img src="Apartment.jpeg" alt="Random Property 1" class="prop">
+        <div class="overlay">
+            <h4>Apartment</h4>
+            <p>Listing #1</p>
+        </div>
+    </a>
+</div>
+
+<div class="categories-property">
+    <a href="Self-Contain.html">
+        <img src="Self-Contain.jpeg" alt="Random Property 1" class="prop">
+        <div class="overlay">
+            <h4>Self-Contain</h4>
+            <p>Listing #1</p>
+        </div>
+    </a>
+</div>
+
+<div class="categories-property">
+    <a href="One-bedroom.html">
+        <img src="One-bedroom.jpeg" alt="Random Property 1" class="prop">
+        <div class="overlay">
+            <h4>One-bedroom Flat</h4>
+            <p>Listing #1</p>
+        </div>
+    </a>
+</div>
+
+<div class="categories-property">
+    <a href="Two-bedroom.html">
+        <img src="Two-bedroom.jpeg" alt="Random Property 1" class="prop">
+        <div class="overlay">
+            <h4>Two-bedroom Flat</h4>
+            <p>Listing #1</p>
+        </div>
+    </a>
+</div>
+
+<div class="categories-property">
+    <a href="Three-bedroom.html">
+        <img src="Three-bedroom.jpeg" alt="Random Property 1" class="prop">
+        <div class="overlay">
+            <h4>Three-bedroom Flat</h4>
+            <p>Listing #1</p>
+        </div>
+    </a>
+</div>
+
+    </section>
+    
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to schedule an appointment? Reach out to us.</p>
+
+    <div class="contact-form">
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="send-message">Send Message</button>
+        </form>
+    </div>
+</section>
+<section id="reviews" class="review">
+    <h2>Customer Reviews</h2>
+    <label class="email-label" for="email">Email Address:</label>
+    <input class="email-input" type="email" id="remail" placeholder="Enter your email">
+
+    <label class="review-label" for="review">Review:</label>
+    <input class="review-input" type="text" id="review" placeholder="Write your review">
+
+    <button onclick="displayReview()" class="submit-review">Submit Review</button>
+        
+
+
+    <div id="output" class="review-container"></div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Contact Us</h2>
+                <p>Email: info@yourrealestate.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+
+            <div class="footer-section">
+                <h2>Follow Us</h2>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Instagram</p>
+            </div>
+
+            <div class="footer-section">
+                <h2>About Us</h2>
+                <p>Company History</p>
+                <p>Team</p>
+                <p>Careers</p>
+            </div>
+        </div>
+
+        <p class="copyright">&copy; 2023 Your Real Estate Company</p>
+    </footer>
+
+    <script src="Real-Estate.js"></script>
+</body>
+</html>

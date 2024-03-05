@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navigator {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #333;
+}
+
+
+
+.property-details {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+span {
+    font-weight: bold;
+}
+
+.location, .price, .duration {
+    margin-bottom: 20px;
+}
+/* Your existing styles here */
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.chat-whatsapp-btn, .buy-now-btn {
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.buy-now-btn {
+    background-color: black;
+}
+.chat-whatsapp-btn{
+     background-color: #4CAF50;
+}
+
+/* Adjust the font size for the footer text */
+.footer-section {
+    font-size: 13px; /* You can adjust this value as needed */
+}
+
+.copyright {
+    font-size: 10px; /* You can adjust this value as needed */
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    color: #fff;
+}
+
+.footer-section p, .footer-section ul {
+    color: #ccc;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
